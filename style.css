@@ -9,8 +9,57 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: hsl(218, 23%, 16%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.container {
+    width: 35%;
+    height: 40%;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.container__heading {
+    color: hsl(150, 100%, 66%);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container__advice {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container__dividerDesktop {
+    margin-top: 20px;
+}
+
+.adviceButton {
+    background-color: hsl(150, 100%, 66%);
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-40px);
+    cursor: pointer;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
