@@ -8,5 +8,6 @@ const giveMeAdvice = async function() {
     const res = await fetch(`https://api.adviceslip.com/advice/${slip_id}`);
     const data = await res.json();
     advice.innerText= data.slip.advice;
-    console.log(data.slip.advice)
 }
+
+adviceBtn.addEventListener('click', () => giveMeAdvice())
