@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-    width: 35%;
-    height: 40%;
+    width: 700px;
+    height: 400px;
     background-color: hsl(217, 19%, 24%);
     border-radius: 25px;
 
@@ -39,13 +39,16 @@ body {
 }
 
 .container__advice {
-    color: hsl(0, 0%, 100%);
     text-align: center;
-    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%); 
+    font-size: 28px;
+    max-width: 600px;
+    height: 400px;   
     position: absolute;
+    display: flex;
+    align-items: center;
     top: 50%;
-    transform: translateY(-100%);
-    max-width: 30%;
+    transform: translateY(-61%);
 }
 
 .container__dividerDesktop {
