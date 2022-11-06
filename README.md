@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/femas1/advice-generator-app.git]
-- Live Site URL: [luminous-toffee-64f0da]
+- Live Site URL: [https://luminous-toffee-64f0da.netlify.app/]
 
 ## My process
 
